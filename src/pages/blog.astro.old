@@ -19,9 +19,9 @@ publishedBlogEntries.sort(function (a, b) {
 <Layout title="Blog">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Our Blog</Fragment>
+      <Fragment slot="title">Em construção</Fragment>
       <Fragment slot="desc">
-        We write about building startups and thoughts going on our mind.
+        Tão logo possivel teremos um BLOG cheio de novidades para você.
       </Fragment>
     </Sectionhead>
     <main class="mt-16">

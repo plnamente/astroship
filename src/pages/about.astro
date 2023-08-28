@@ -11,23 +11,70 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 });
 ---
 
-<Layout title="About">
+<Layout title="Sobre">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="title">Sobre a T.I. NA MENTE</Fragment>
+      <Fragment slot="desc">Inovações Tecnológicas.</Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Astro.
+        Inovando com você para próxima realidade em tecnologia da informação.
       </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+      <p class="text-lg leading-relaxed text-slate-500 text-justify">
+        Na T.I. NA MENTE, nossa jornada é moldada pela paixão e compromisso inabalável com a excelência em soluções tecnológicas.
+        Fundada com a visão de transformar ideias em realidade, nossa empresa é um farol de inovação e confiabilidade no cenário do mundo da tecnologia da informação.
       </p>
     </div>
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <h2 class="font-bold text-2xl text-gray-800">
+        Missão:
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500 text-justify">
+        "A missão da T.I. NA MENTE é fornecer consultoria, suporte e propor soluções tecnológicas inovadoras,
+        sob medida para nossos clientes, capacitando-os a enfrentar os desafios do mundo digital. 
+        Nossa equipe apaixonada e especializada, se empenha em compreender as necessidades únicas de cada cliente, 
+        transformando ideias em realidade por meio de serviços de TI excepcionais. 
+        Estamos comprometidos em ser um parceiro confiável, orientando nossos clientes em sua 
+        jornada tecnológica e ajudando-os a alcançar o sucesso sustentável."
+      </p>
+    </div>
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <h2 class="font-bold text-2xl text-gray-800">
+        Visão:
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500 text-justify">
+        "Nossa visão, é ser reconhecida não só como a principal empresa de soluções tecnológicas, 
+        mas como uma referência em inovação, excelência e parceria. Buscamos constantemente expandir nossos horizontes, 
+        explorar novas fronteiras tecnológicas e liderar o caminho em um mundo em constante evolução. 
+        Queremos ser a primeira escolha dos clientes e parceiros, que buscam transformar suas operações e 
+        maximizar seu potencial por meio de soluções para sua empresa. Com determinação e visão de futuro, almejamos deixar uma marca significativa no cenário tecnológico global."
+      </p>
+    </div>
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <h2 class="font-bold text-2xl text-gray-800">
+        Valores:
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500 text-justify">
+        <ul class="list-disc text-lg leading-relaxed text-slate-500 text-justify">
+          <li>Inovação: Abraçamos a mudança e a criatividade, buscando constantemente maneiras novas e melhores de resolver problemas e agregar valor aos nossos clientes.</li>
+          <li>Comprometimento: Somos comprometidos com a excelência em cada aspecto do nosso trabalho, desde o atendimento ao cliente até a entrega final de projetos.</li>
+          <li>Colaboração: Acreditamos no poder da colaboração, valorizando a diversidade de ideias e trabalhando em equipe para alcançar resultados excepcionais.</li>
+          <li>Integridade: Agimos com integridade em todas as interações, mantendo altos padrões éticos e construindo confiança duradoura com nossos clientes e parceiros.</li>
+          <li>Paixão: Somos apaixonados pelo que fazemos e pela inovação que a tecnologia pode trazer. Essa paixão impulsiona nosso empenho em superar desafios e atingir resultados excepcionais.</li>
+          <li>Aprendizado Contínuo: Estamos sempre em busca de conhecimento e crescimento, mantendo-nos atualizados com as últimas tendências tecnológicas para oferecer as melhores soluções possíveis.</li>
+          <li>Responsabilidade Social: Reconhecemos nossa responsabilidade para com a sociedade e o meio ambiente. Buscamos impactar positivamente as comunidades em que atuamos e minimizar nosso impacto ambiental.</li>
+          <!-- ... -->
+        </ul>
+      </p>
+    </div>
+    <!--
+    <Sectionhead>
+      <Fragment slot="title">Nossa Equipe</Fragment>
+      <Fragment slot="desc">Nós somos um verdadeiro time.</Fragment>
+    </Sectionhead>
+
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
         publishedTeamMembers.map((teamMemberEntry) => (
@@ -58,5 +105,6 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
         ))
       }
     </div>
+     -->
   </Container>
 </Layout>
